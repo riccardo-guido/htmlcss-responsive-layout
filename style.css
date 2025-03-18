@@ -1,9 +1,5 @@
-*,
-*::before,
-*::after {
+* {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 header {
   font-family: "Nerko One", cursive;
@@ -26,4 +22,21 @@ body {
 .row {
   display: flex;
   flex-direction: column;
+  gap: 2rem;
+}
+h3 {
+  font-size: small;
+  color: #a1a2a1;
+  font-weight: lighter;
+  margin: 1rem;
+}
+
+h2 {
+  color: #4e3969;
+  font-weight: 800;
+  margin: 1rem;
+}
+h4,
+p {
+  margin: 10px 0px 10px 30px;
 }
