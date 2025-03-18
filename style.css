@@ -1,14 +1,10 @@
 * {
-  margin: 0;
+  margin: auto;
 }
 header {
   font-family: "Nerko One", cursive;
-  font-weight: lighter;
   font-size: 30px;
   color: #ff9614;
-  border: 10px;
-  text-shadow: 1px 1px 3px grey;
-  text-align: center;
   background-color: white;
 }
 body {
@@ -21,8 +17,12 @@ body {
 }
 .row {
   display: flex;
-  flex-direction: column;
-  gap: 2rem;
+  flex-wrap: wrap;
+}
+h1 {
+  font-weight: 100;
+  text-shadow: 1px 1px 3px grey;
+  text-align: center;
 }
 h3 {
   font-size: small;
@@ -36,7 +36,48 @@ h2 {
   font-weight: 800;
   margin: 1rem;
 }
+#presentation h2 {
+  color: black;
+  font-weight: 100;
+}
 h4,
 p {
   margin: 10px 0px 10px 30px;
+}
+#dolci .col {
+  margin: 0;
+}
+
+#dolci .col-breve {
+  width: 100%;
+  background-color: white;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+#links li {
+  margin: 0px 10px;
+  border: 10px solid white;
+  border-radius: 30%;
+}
+
+.container-img {
+  display: flex;
+  justify-content: center; /* Centra orizzontalmente */
+  align-items: center; /* Centra verticalmente */
+}
+#presentation img {
+  max-width: 280px;
+  align-self: center;
+}
+
+#footer {
+  background-color: #7c69a4;
+  text-align: center;
+  padding: 10px 20px;
+
+  color: white;
 }
