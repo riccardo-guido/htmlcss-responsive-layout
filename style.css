@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  font-family: "Nerko One", cursive;
+  font-weight: lighter;
+  font-size: 30px;
+  color: #ff9614;
+  border: 10px;
+  text-shadow: 1px 1px 3px grey;
+  text-align: center;
+  background-color: white;
+}
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  background-color: #f6f5f3;
+}
+
+.container {
+  width: 480px;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+}
